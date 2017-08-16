@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BBC7D0A1F4490F8004423EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7D091F4490F8004423EE /* AppDelegate.swift */; };
+		4BBC7D0C1F4490F8004423EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7D0B1F4490F8004423EE /* ViewController.swift */; };
+		4BBC7D0F1F4490F8004423EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7D0D1F4490F8004423EE /* Main.storyboard */; };
+		4BBC7D111F4490F8004423EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7D101F4490F8004423EE /* Assets.xcassets */; };
+		4BBC7D141F4490F8004423EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7D121F4490F8004423EE /* LaunchScreen.storyboard */; };
+		4BBC7D1C1F44916C004423EE /* GradientSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7D1B1F44916C004423EE /* GradientSampleView.swift */; };
+		8805A33E829D50DEF2C5AABA /* Pods_Gradient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1CAF81201386B5687237F6 /* Pods_Gradient.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BBC7D061F4490F8004423EE /* Gradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBC7D091F4490F8004423EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BBC7D0B1F4490F8004423EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BBC7D0E1F4490F8004423EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BBC7D101F4490F8004423EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BBC7D131F4490F8004423EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BBC7D151F4490F8004423EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBC7D1B1F44916C004423EE /* GradientSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSampleView.swift; sourceTree = "<group>"; };
+		5D1CAF81201386B5687237F6 /* Pods_Gradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E6504DA83C18EADA087D96 /* Pods-Gradient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gradient/Pods-Gradient.debug.xcconfig"; sourceTree = "<group>"; };
+		B902B4F2815A6923965DF4AF /* Pods-Gradient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradient.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gradient/Pods-Gradient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BBC7D031F4490F8004423EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8805A33E829D50DEF2C5AABA /* Pods_Gradient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F8871743E49A6C7AEE8F82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CAF81201386B5687237F6 /* Pods_Gradient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BBC7CFD1F4490F7004423EE = {
+			isa = PBXGroup;
+			children = (
+				4BBC7D081F4490F8004423EE /* Gradient */,
+				4BBC7D071F4490F8004423EE /* Products */,
+				7AA68FA1037BACA57D160F25 /* Pods */,
+				00F8871743E49A6C7AEE8F82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BBC7D071F4490F8004423EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC7D061F4490F8004423EE /* Gradient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BBC7D081F4490F8004423EE /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC7D091F4490F8004423EE /* AppDelegate.swift */,
+				4BBC7D0B1F4490F8004423EE /* ViewController.swift */,
+				4BBC7D0D1F4490F8004423EE /* Main.storyboard */,
+				4BBC7D1B1F44916C004423EE /* GradientSampleView.swift */,
+				4BBC7D101F4490F8004423EE /* Assets.xcassets */,
+				4BBC7D121F4490F8004423EE /* LaunchScreen.storyboard */,
+				4BBC7D151F4490F8004423EE /* Info.plist */,
+			);
+			path = Gradient;
+			sourceTree = "<group>";
+		};
+		7AA68FA1037BACA57D160F25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E6504DA83C18EADA087D96 /* Pods-Gradient.debug.xcconfig */,
+				B902B4F2815A6923965DF4AF /* Pods-Gradient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BBC7D051F4490F8004423EE /* Gradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBC7D181F4490F8004423EE /* Build configuration list for PBXNativeTarget "Gradient" */;
+			buildPhases = (
+				3EA8DCF315A41A8CAB1BDE1E /* [CP] Check Pods Manifest.lock */,
+				4BBC7D021F4490F8004423EE /* Sources */,
+				4BBC7D031F4490F8004423EE /* Frameworks */,
+				4BBC7D041F4490F8004423EE /* Resources */,
+				C93178F73002119B928248AC /* [CP] Embed Pods Frameworks */,
+				6582A73DDE9BC619F4CA6228 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gradient;
+			productName = Gradient;
+			productReference = 4BBC7D061F4490F8004423EE /* Gradient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BBC7CFE1F4490F7004423EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = eure;
+				TargetAttributes = {
+					4BBC7D051F4490F8004423EE = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 4BBC7D011F4490F7004423EE /* Build configuration list for PBXProject "Gradient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BBC7CFD1F4490F7004423EE;
+			productRefGroup = 4BBC7D071F4490F8004423EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BBC7D051F4490F8004423EE /* Gradient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BBC7D041F4490F8004423EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBC7D141F4490F8004423EE /* LaunchScreen.storyboard in Resources */,
+				4BBC7D111F4490F8004423EE /* Assets.xcassets in Resources */,
+				4BBC7D0F1F4490F8004423EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EA8DCF315A41A8CAB1BDE1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gradient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6582A73DDE9BC619F4CA6228 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradient/Pods-Gradient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93178F73002119B928248AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gradient/Pods-Gradient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradient/Pods-Gradient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BBC7D021F4490F8004423EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBC7D0C1F4490F8004423EE /* ViewController.swift in Sources */,
+				4BBC7D0A1F4490F8004423EE /* AppDelegate.swift in Sources */,
+				4BBC7D1C1F44916C004423EE /* GradientSampleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BBC7D0D1F4490F8004423EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BBC7D0E1F4490F8004423EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BBC7D121F4490F8004423EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BBC7D131F4490F8004423EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BBC7D161F4490F8004423EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BBC7D171F4490F8004423EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BBC7D191F4490F8004423EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E6504DA83C18EADA087D96 /* Pods-Gradient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JX92XL88RZ;
+				INFOPLIST_FILE = Gradient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.eure.Gradient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BBC7D1A1F4490F8004423EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B902B4F2815A6923965DF4AF /* Pods-Gradient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JX92XL88RZ;
+				INFOPLIST_FILE = Gradient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.eure.Gradient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BBC7D011F4490F7004423EE /* Build configuration list for PBXProject "Gradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBC7D161F4490F8004423EE /* Debug */,
+				4BBC7D171F4490F8004423EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BBC7D181F4490F8004423EE /* Build configuration list for PBXNativeTarget "Gradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBC7D191F4490F8004423EE /* Debug */,
+				4BBC7D1A1F4490F8004423EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BBC7CFE1F4490F7004423EE /* Project object */;
+}
